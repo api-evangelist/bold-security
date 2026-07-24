@@ -1,9 +1,28 @@
 aid: bold-security
 name: Bold Security
-description: 'Bold Security is a company surfaced as a portfolio company of bessemer-venture-partners
-  and added to the API Evangelist network as a stub for enrichment. Sector: ai-ml. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Bold Security provides real-time, on-device (endpoint) data security. Its
+  on-device AI classifies data interactions across every application in real time and
+  detects and prevents user- and AI-agent-driven data exfiltration before sensitive data
+  leaves the endpoint, without requiring policy configuration or cloud round-trips. The
+  platform gives security teams visibility into data movement, intent and risky-behavior
+  analysis, and full-context investigation across employees and AI agents. Bold Security
+  is ISO 27001 certified and SOC 2 compliant, and is a portfolio company of Bessemer
+  Venture Partners. As of this profile the company publishes no public developer API,
+  specification, or SDK; this entry captures its identity, security posture, and public
+  properties.'
 url: https://raw.githubusercontent.com/api-evangelist/bold-security/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/6696877e0376bfc5993d8902/691c923b17866b6031536337_2ad9fe4431a4d3c6fba51e835e317799_Bold%20-%20Share%20Image.jpg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,10 +31,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Ai Ml
+- Data Security
+- Endpoint Security
+- Data Loss Prevention
+- AI Security
+- Cybersecurity
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +47,28 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/bold-security-domain-security.yml
+- type: TrustCenter
+  url: security/bold-security-trust-center.yml
+- type: Compliance
+  url: security/bold-security-trust-center.yml
+- type: LLMsTxt
+  url: llms/bold-security-llms.txt
 - type: Website
   url: https://www.bold.security/
+- type: Blog
+  url: https://www.bold.security/blog
+- type: PrivacyPolicy
+  url: https://www.bold.security/privacy-policy
+- type: Login
+  url: https://www.bold.security/login
+- type: SignUp
+  url: https://www.bold.security/get-a-demo
+- type: Support
+  url: https://www.bold.security/get-a-demo
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
